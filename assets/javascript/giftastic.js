@@ -60,7 +60,7 @@ $( document ).ready(function() {
                 // pulling rating of gif
                 var gifRating = $("<p>").text("Rating: " + results[i].rating);
                 gifDiv.append(gifRating);
-                // pulling gif
+                // pullng gif
                 var gifImage = $("<img>");
                 gifImage.attr("src", results[i].images.fixed_height_small_still.url); // still image stored into src of image
                 gifImage.attr("data-still",results[i].images.fixed_height_small_still.url); // still image
